@@ -173,6 +173,9 @@ BASE-DATA:
   proxy-providers-config:
     proxy-providers-use: &proxy-providers-use
       - airport
+      - 极速
+      - 光年
+      - 泡芙
       # - add-on
       # - warp
       # - local
@@ -180,6 +183,12 @@ BASE-DATA:
       airport-interval: &airport-interval 36000
       url-airport: &url-airport ""  # 这里填入airport的配置链接
       proxy-file-path-airport: &proxy-file-path-airport myprovider/proxies/provider-airport.yml
+      url-jisu: &url-jisu ""  # 这里填入极速的配置链接
+      proxy-file-path-jisu: &proxy-file-path-jisu myprovider/proxies/provider-jisu.yml
+      url-guangnian: &url-guangnian ""  # 这里填入光年的配置链接
+      proxy-file-path-guangnian: &proxy-file-path-guangnian myprovider/proxies/provider-guangnian.yml
+      url-paofu: &url-paofu ""  # 这里填入泡芙的配置链接
+      proxy-file-path-paofu: &proxy-file-path-paofu myprovider/proxies/provider-paofu.yml
       url-add-on: &url-add-on ""  # 这里填入add-on的配置链接
       proxy-file-path-add-on: &proxy-file-path-add-on myprovider/proxies/provider-add-on.yml
       url-warp: &url-warp ""  # 这里填入warp的配置链接
@@ -590,6 +599,12 @@ proxies:
 
 # Proxy-groups partial template
 proxy-groups:
+  -
+    name: PT
+    icon: *icon-Proxy
+    type: select
+    proxies:
+      - 直接连接
   # -
   #   name: Foreign-StrategySwitch
   #   icon: *icon-Area
@@ -968,6 +983,21 @@ proxy-providers:
     url: *url-airport
     interval: *airport-interval
     path: *proxy-file-path-airport
+  极速:
+    type: http
+    url: *url-jisu
+    interval: *airport-interval
+    path: *proxy-file-path-jisu
+  光年:
+    type: http
+    url: *url-guangnian
+    interval: *airport-interval
+    path: *proxy-file-path-guangnian
+  泡芙:
+    type: http
+    url: *url-paofu
+    interval: *airport-interval
+    path: *proxy-file-path-paofu
   # add-on:
   #   type: http
   #   url: *url-add-on
@@ -985,6 +1015,43 @@ proxy-providers:
   #   path: *proxy-file-path-local
 # Rules partial template
 rules:
+  # PT 站点直连
+  - DOMAIN-SUFFIX,vihacker.top,PT
+  - DOMAIN-SUFFIX,1511111.xyz,PT
+  - DOMAIN-SUFFIX,ipto.top,PT
+  - DOMAIN-SUFFIX,hdtime.org,PT
+  - DOMAIN-SUFFIX,pttime.fun,PT
+  - DOMAIN-SUFFIX,m-team.cc,PT
+  - DOMAIN-SUFFIX,hdkylin.top,PT
+  - DOMAIN-SUFFIX,hdkyl.in,PT
+  - DOMAIN-SUFFIX,btschool.club,PT
+  - DOMAIN-SUFFIX,speedtest.cn,PT
+  - DOMAIN-SUFFIX,xycdn.com,PT
+  - DOMAIN-SUFFIX,onethingpcs.com,PT
+  - DOMAIN-SUFFIX,imnks.com,PT
+  - DOMAIN-SUFFIX,mb3admin.com,PT
+  - DOMAIN-SUFFIX,juliangip.com,PT
+  - DOMAIN-SUFFIX,shenlongip.com,PT
+  - DOMAIN-SUFFIX,yhui0g.com,PT
+  - DOMAIN-SUFFIX,kiteehub.com,PT
+  - DOMAIN-SUFFIX,vcjs.top,PT
+  - DOMAIN-SUFFIX,juip.com,PT
+  - DOMAIN-SUFFIX,px32.com,PT
+  - DOMAIN-SUFFIX,fz.xxzi.top,PT
+  - DOMAIN-SUFFIX,ampproject.org,PT
+  - DOMAIN-SUFFIX,hddolby.com,PT
+  - DOMAIN-SUFFIX,pttime.org,PT
+  - DOMAIN-SUFFIX,public.ecustpt.eu.org,PT
+  - DOMAIN-SUFFIX,ptchina.org,PT
+  - DOMAIN-SUFFIX,haidan.video,PT
+  - DOMAIN-SUFFIX,hdpt.xyz,PT
+  - DOMAIN-SUFFIX,hdkylin.work,PT
+  - DOMAIN-SUFFIX,hdatmos.club,PT
+  - DOMAIN-SUFFIX,icc2022.com,PT
+  - DOMAIN-SUFFIX,icc2022.de,PT
+  - DOMAIN,cdn.playwright.dev,PT
+  - DOMAIN,desk.vihacker.top,PT
+  - DOMAIN,desk.kiteehub.com,PT
   - DOMAIN-SUFFIX,smtp,DIRECT
   - DOMAIN-KEYWORD,aria2,DIRECT
   - DOMAIN,clash.razord.top,DIRECT
