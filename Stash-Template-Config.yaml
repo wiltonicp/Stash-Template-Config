@@ -8,167 +8,167 @@ BASE-DATA:
     proxies-all: &proxies-all
       - 国外流量
       - 直接连接
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇺🇸 AIRPORT-US
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - US 美国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
       - WARP+
     proxies-all-fdirect: &proxies-all-fdirect
       - 直接连接
       - 国外流量
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇺🇸 AIRPORT-US
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - US 美国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
       - WARP+
     proxies-all-oforeign: &proxies-all-oforeign
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇺🇸 AIRPORT-US
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - US 美国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
       - WARP+
     proxies-all-for-proxydialer: &proxies-all-for-proxydialer
       - 直接连接
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇺🇸 AIRPORT-US
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - US 美国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
       - WARP+
     proxies-all-for-tiktok: &proxies-all-for-tiktok
-      - 🇺🇸 AIRPORT-US
+      - US 美国
       - 国外流量
       - AIRPORT
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
     proxies-all-for-openai: &proxies-all-for-openai
-      - 🇰🇷 AIRPORT-Korea
-      - 🇯🇵 AIRPORT-JP
-      - 🇭🇰 AIRPORT-HK
-      - 🇺🇸 AIRPORT-US
-      - 🇸🇬 AIRPORT-SG
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - KR 韩国
+      - JP 日本
+      - HK 香港
+      - US 美国
+      - SG 新加坡
+      - EN 英国
+      - IR 爱尔兰
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
     proxies-all-for-claude: &proxies-all-for-claude
-      - 🇬🇧 AIRPORT-EN
-      - 🇺🇸 AIRPORT-US
-      - 🇰🇷 AIRPORT-Korea
-      - 🇯🇵 AIRPORT-JP
-      - 🇸🇬 AIRPORT-SG
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - EN 英国
+      - US 美国
+      - KR 韩国
+      - JP 日本
+      - SG 新加坡
+      - IR 爱尔兰
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
     proxies-all-for-gemini: &proxies-all-for-gemini
-      - 🇺🇸 AIRPORT-US
-      - 🇬🇧 AIRPORT-EN
-      - 🇰🇷 AIRPORT-Korea
-      - 🇯🇵 AIRPORT-JP
-      - 🇸🇬 AIRPORT-SG
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - US 美国
+      - EN 英国
+      - KR 韩国
+      - JP 日本
+      - SG 新加坡
+      - IR 爱尔兰
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
     proxies-all-for-perplexity: &proxies-all-for-perplexity
-      - 🇺🇸 AIRPORT-US
-      - 🇬🇧 AIRPORT-EN
-      - 🇰🇷 AIRPORT-Korea
-      - 🇯🇵 AIRPORT-JP
-      - 🇸🇬 AIRPORT-SG
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - US 美国
+      - EN 英国
+      - KR 韩国
+      - JP 日本
+      - SG 新加坡
+      - IR 爱尔兰
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
     proxies-all-for-javsp: &proxies-all-for-javsp
-      - 🇯🇵 AIRPORT-JP
+      - JP 日本
       - 国外流量
       - 直接连接
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇰🇷 AIRPORT-Korea
-      - 🇺🇸 AIRPORT-US
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - KR 韩国
+      - US 美国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
       - AIRPORT
       - WARP+
     proxies-all-for-reddit: &proxies-all-for-reddit
-      - 🇺🇸 AIRPORT-US
+      - US 美国
       - 国外流量
       - AIRPORT
-      - 🇭🇰 AIRPORT-HK
-      - 🇨🇳 AIRPORT-TW
-      - 🇸🇬 AIRPORT-SG
-      - 🇯🇵 AIRPORT-JP
-      - 🇰🇷 AIRPORT-Korea
-      - 🇮🇳 AIRPORT-India
-      - 🇬🇧 AIRPORT-EN
-      - 🇮🇪 AIRPORT-Ireland
-      - 🇷🇺 AIRPORT-RU
-      - 🇨🇦 AIRPORT-Canada
-      - 🇫🇷 AIRPORT-FR
-      - 🇦🇺 AIRPORT-AU
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - KR 韩国
+      - IN 印度
+      - EN 英国
+      - IR 爱尔兰
+      - RU 俄罗斯
+      - CA 加拿大
+      - FR 法国
+      - AU 澳大利亚
 
   proxy-providers-config:
     proxy-providers-use: &proxy-providers-use
@@ -872,79 +872,79 @@ proxy-groups:
     type: select  
     use: *proxy-providers-use
   -
-    name: 🇭🇰 AIRPORT-HK
+    name: HK 香港
     icon: *icon-Hong_Kong
     type: select  
     filter: *proxy-filter-HK  
     use: *proxy-providers-use
   -
-    name: 🇨🇳 AIRPORT-TW
+    name: TW 台湾
     icon: *icon-Taiwan
     type: select  
     filter: *proxy-filter-TW  
     use: *proxy-providers-use
   -
-    name: 🇸🇬 AIRPORT-SG
+    name: SG 新加坡
     icon: *icon-Singapore
     type: select  
     filter: *proxy-filter-SG  
     use: *proxy-providers-use
   -
-    name: 🇯🇵 AIRPORT-JP
+    name: JP 日本
     icon: *icon-Japan
     type: select  
     filter: *proxy-filter-JP  
     use: *proxy-providers-use
   -
-    name: 🇰🇷 AIRPORT-Korea
+    name: KR 韩国
     icon: *icon-Korea
     type: select  
     filter: *proxy-filter-Korea  
     use: *proxy-providers-use
   -
-    name: 🇺🇸 AIRPORT-US
+    name: US 美国
     icon: *icon-United_States
     type: select  
     filter: *proxy-filter-US  
     use: *proxy-providers-use
   -
-    name: 🇮🇳 AIRPORT-India
+    name: IN 印度
     icon: *icon-India
     type: select  
     filter: *proxy-filter-India  
     use: *proxy-providers-use
   -
-    name: 🇬🇧 AIRPORT-EN
+    name: EN 英国
     icon: *icon-United_Kingdom
     type: select  
     filter: *proxy-filter-EN  
     use: *proxy-providers-use
   -
-    name: 🇮🇪 AIRPORT-Ireland
+    name: IR 爱尔兰
     icon: *icon-United_Kingdom
     type: select  
     filter: *proxy-filter-Ireland  
     use: *proxy-providers-use
   -
-    name: 🇷🇺 AIRPORT-RU
+    name: RU 俄罗斯
     icon: *icon-Russia
     type: select  
     filter: *proxy-filter-RU  
     use: *proxy-providers-use
   -
-    name: 🇨🇦 AIRPORT-Canada
+    name: CA 加拿大
     icon: *icon-Canada
     type: select  
     filter: *proxy-filter-Canada  
     use: *proxy-providers-use
   -
-    name: 🇫🇷 AIRPORT-FR
+    name: FR 法国
     icon: *icon-France
     type: select  
     filter: *proxy-filter-FR  
     use: *proxy-providers-use
   -
-    name: 🇦🇺 AIRPORT-AU
+    name: AU 澳大利亚
     icon: *icon-Australia
     type: select  
     filter: *proxy-filter-AU  
