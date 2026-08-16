@@ -173,9 +173,9 @@ BASE-DATA:
   proxy-providers-config:
     proxy-providers-use: &proxy-providers-use
       - airport
-      - 极速
-      - 光年
-      - 泡芙
+      - jisu
+      - guangnian
+      - paofu
       # - add-on
       # - warp
       # - local
@@ -983,17 +983,17 @@ proxy-providers:
     url: *url-airport
     interval: *airport-interval
     path: *proxy-file-path-airport
-  极速:
+  jisu:
     type: http
     url: *url-jisu
     interval: *airport-interval
     path: *proxy-file-path-jisu
-  光年:
+  guangnian:
     type: http
     url: *url-guangnian
     interval: *airport-interval
     path: *proxy-file-path-guangnian
-  泡芙:
+  paofu:
     type: http
     url: *url-paofu
     interval: *airport-interval
